@@ -107,15 +107,13 @@ body{
 
     width: 75%;
     float: left;
-    border: 1px solid red;
     
     
 }
 
 .side-info{
     background-color: rgb(34, 33, 46);
-    border: 1px solid red;
-    border-radius: 5%;
+    border-radius: 10px;
     font-size: 1vw;
     width: 25%;
     float:right;
@@ -288,6 +286,7 @@ body{
         background-color: rgb(34, 33, 46);
         float:none;
         width: 100%;
+        border-radius: 0;
 
         .hr {
             width: 25%;
