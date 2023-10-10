@@ -1,15 +1,24 @@
 html {
     box-sizing: border-box;
     font-family: 'montserrat', 'sans-serif';
-    color:#292929;
+    background-color:#2A3638;
+    color: white;
 }
 
 .body{
-    margin: 0;
+    margin: 0px;
+}
+
+.top{
+    display: flex;
+    margin-left: 20%;
+    width: 100%;
 }
 
 .header {
-    
+    margin: 0;
+    background-color: #2A3638;
+    border: 13px solid #E84A5F;
 }
 
 section {
@@ -18,23 +27,32 @@ section {
 }
 
 .pfp {
-    display:block;
     width: 10vw;
     border: 3px solid #292929;
-    margin-right: 7.5%;
+}
+
+.img {
+    width: 12%;
+    padding-top: 3%;
+}
+
+.text {
+    width:60%;
+    color: white;
 }
 
 .title {
-    font-size: 5vw;
+    font-size: 5em;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
+
 
 }
 
 .id {
-    font-size: 3vw;
+    font-size: 3em;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
 }
 
 .content {
@@ -45,7 +63,7 @@ section {
 
 .socials {
     height: 2.2vw;
-    color: #292929;
+    color: white;
     margin: 5%;
     font-size: 1.5vw;
     padding: 1%;
