@@ -6,7 +6,7 @@ html {
 }
 
 .body{
-    margin: 0px;
+    margin: 0;
 }
 
 .top{
@@ -17,10 +17,10 @@ html {
 
 .header {
     box-sizing: border-box;
-    margin: 0;
     background-color: #363543;
     border: 13px solid #E84A5F;
-    overflow:hidden
+    overflow:hidden;
+    
 }
 
 section {
