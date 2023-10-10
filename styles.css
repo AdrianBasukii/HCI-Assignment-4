@@ -191,6 +191,33 @@ body{
     background-size: 5vw;
 }
 
+#vedit {
+    background-image: url(https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmlkZW8lMjBlZGl0aW5nfGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: 26vw 15vw;
+}
+
+#game {
+    background-image: url(https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=);
+    background-size: 26vw 15vw;
+}
+
+.hobby {
+    border: 0.5vw solid #353247;
+    width: 25vw;
+    height: 15vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 2.5vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.hobby>p {
+    text-align: center;
+    margin-right: 1vw;
+    font-size: 2vw;
+}
+
 /* Footer */
 
 .footer {
@@ -207,3 +234,41 @@ body{
 
 /* Media */
 
+@media only screen and (max-width: 600px) {
+    .content{
+        display:block;
+        margin: 7.5% 10%;
+        }
+    .info {
+        font-size: 2vw;
+        text-align: center;
+        #hr{
+            width: 25%;
+            margin: -3% 0 5% 37%;
+            border: 0.25vw solid #ffb71d;
+        }
+    
+        #para{
+            text-align: justify;
+            padding: 0% 5%;
+            font-size: 1.35vw;
+            word-spacing: 0.2vw;
+        }
+        
+        display:block;
+        width: 100%;
+        float:none;
+        border: 1px solid red;
+    }
+
+    .side-info{
+        display:block;
+        background-color: rgb(34, 33, 46);
+        border: 1px solid red;
+        border-radius: 5%;
+        float:none;
+        font-size: 1vw;
+        width: 100%;
+        
+    }
+  }
