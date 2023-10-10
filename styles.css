@@ -19,14 +19,21 @@ body{
 .navgroup {
     display: flex;
     justify-content: space-between;
-    width:15%;
-    padding: 0.3% 0 0 1%;
+    width:25%;
+    padding: 0 0 0 1%;
+    
 }
 
 .navclick {
     font-size: 1vw;
-    width: 30%;
-    height: 15%;
+    width: 25%;
+    height: 2vw;
+}
+
+.navclick:hover {
+    background-color: white;
+    color:#111116;
+    font-weight: 700;
 }
 
 /* HEADER */
@@ -205,16 +212,15 @@ body{
     border: 0.5vw solid #353247;
     width: 25vw;
     height: 15vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 15vw;
+    margin-top: 1vw;
     margin-bottom: 2.5vw;
     font-size: 1.5vw;
     font-weight: 700;
 }
 
 .hobby>p {
-    text-align: center;
-    margin-right: 1vw;
+    margin-left: 1vw;
     font-size: 2vw;
 }
 
