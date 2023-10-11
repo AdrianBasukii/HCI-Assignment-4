@@ -148,12 +148,12 @@ body{
     }
 
     .hs:hover{
-        border: 0.75vw solid rgb(156, 44, 44);
+        border-color: rgb(156, 44, 44);
         transform: translateY(-5%)
     }
 
     .uni:hover{
-        border: 0.75vw solid rgb(12, 109, 141);
+        border-color: rgb(12, 109, 141);
         transform: translateY(-5%)
     }
 
@@ -168,7 +168,7 @@ body{
     font-size: 2vw;
 }
 
-.side-info>p{
+.side-info>div>p{
     width: 100%;
     text-align: center;
 }
@@ -179,6 +179,10 @@ body{
     border-radius: 5vw;
     width: 5vw;
     height: 5vw;
+}
+
+#plang {
+    margin-bottom: 20%;
 }
 
 #Py {
@@ -243,36 +247,36 @@ body{
 /* Media */
 
 @media only screen and (max-width: 600px) {
+    /* Content */
+
     .content{
         display:block;
         margin: 0;
         }
     .info {
-        font-size: 2vw;
+        font-size: 4vw;
         text-align: center;
         display:block;
         width: 100%;
         float:none;
         #hr{
             width: 25%;
-            margin: -3% 0 5% 37%;
-            border: 0.25vw solid #ffb71d;
+            margin: -4% 0 5% 37%;
+            border: 0.5vw solid #ffb71d;
         }
 
         #para{
-            text-align: center;
-            padding: 0% 5%;
-            font-size: 1.35vw;
-            word-spacing: 0.2vw;
+            font-size: 3vw;
+            word-spacing: 0.1vw;
         }
 
         #hobbies{
-            margin-left: 25%
+            margin-left: 5%;
         }
         .hobby {
             border: 0.5vw solid #353247;
-            width: 20vw;
-            height: 13vw;
+            width: 40vw;
+            height: 25vw;
             margin-left: 3%;
             margin-top: 0;
             margin-bottom: 2.5vw;
@@ -288,6 +292,31 @@ body{
         width: 100%;
         border-radius: 0;
 
+        .titles{
+            font-size: 7vw;
+            margin-bottom: 2vw;
+        }
+        .hs{
+            width:20vw;
+            height:20vw;
+            margin: 11% 0 5% 20%;
+            border: 1.5vw solid rgb(126, 35, 35);
+            border-radius: 20vw;
+            background-image: url(https://abtest.schoolofparenting.id/images/mitra-sekolah/logo/binus_school_serpong.png);
+            background-size: 20vw;
+            transition: 0.3s;
+        }
+    
+        .uni{
+            width:20vw;
+            height:20vw;
+            margin: 11% 0 5% 30%;
+            border: 1.5vw solid rgb(9, 89, 116);
+            border-radius: 20vw;
+            background-image: url(https://i.pinimg.com/originals/7a/c5/a5/7ac5a5ce53db6e5dab08a84e5bf9d56c.png);
+            background-size: 20vw;
+            transition: 0.3s;
+        }
         .hr {
             width: 25%;
             border: 0.1vw solid #ffb71d;
@@ -297,7 +326,8 @@ body{
             display: flex;
             justify-content: space-between;
             width: 20%;
-            margin-left: 38%;
+            margin-left: 22%;
+            margin-top: 5%;
         }
 
 
@@ -310,33 +340,80 @@ body{
         }
 
         #Py {
-            background-size: 7vw;
+            background-size: 15vw;
         }
         
         #CSS {
-            background-size: 7vw;
+            background-size: 15vw;
         }
         
         #HTML {
-            background-size: 7vw;
+            background-size: 15vw;
         }
 
         #plang{
             display:flex;
             justify-content: space-between;
-            width: 25%;
-            margin-top: 3%;
-            margin-left: 37.5%;
-            padding-bottom: 5%;
+            width: 55%;
+            margin-top: 5%;
+            margin-left: 23.5%;
+            padding-bottom: 10%;
         }
+
+
         .plang {
             margin: 0;
-            border: 0.25vw solid white;
-            border-radius: 7vw;
-            width: 7vw;
-            height: 7vw;
+            border: 0.5vw solid white;
+            border-radius: 15vw;
+            width: 15vw;
+            height: 15vw;
         }
 
     }
 
-  }
+    #vedit {
+        background-image: url(https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmlkZW8lMjBlZGl0aW5nfGVufDB8fDB8fHww&w=1000&q=80);
+        background-size: 40vw 25vw;
+    }
+    
+    #game {
+        background-image: url(https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=);
+        background-size: 40vw 25vw;
+    }
+
+    /* HEADER */
+    .pfp {
+        width: 15vw;
+    }
+
+    .img {
+        width: 20%;
+        padding-top: 5%;
+        margin: 0 0 0 12%
+    }
+
+    .vl {
+        border-left: 7px solid #ffb71d; 
+        margin-right: 5%;
+        margin-top: 5%;
+        height: 70%
+    }
+
+    .title {
+        font-size: 7vw;
+        font-weight: 700;
+        text-align: left;
+        padding-top: 0;
+        #basuki{
+            color:#ffb71d;
+        }
+
+        
+    }
+
+    .id {
+        font-size: 3vw;
+        font-weight: 300;
+        text-align: left;
+    }
+}
