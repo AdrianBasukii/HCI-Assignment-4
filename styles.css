@@ -19,15 +19,22 @@ body{
 .navgroup {
     display: flex;
     justify-content: space-between;
-    width:25%;
+    width:20%;
     padding: 0 0 0 1%;
+    text-align:center;
     
 }
 
 .navclick {
-    font-size: 1vw;
-    width: 25%;
+    font-size: 1.5vw;
+    width: 100%;
     height: 2vw;
+    transition: 0.3s;
+    color: white;
+}
+
+a{
+    text-decoration: none;
 }
 
 .navclick:hover {
@@ -358,6 +365,7 @@ body{
             margin-top: 5%;
             margin-left: 23.5%;
             padding-bottom: 10%;
+            margin-bottom: 0;
         }
 
 
@@ -382,28 +390,36 @@ body{
     }
 
     /* HEADER */
+
+    .header {
+        background-color: #363543;
+        width: 100%;
+        height: 35vw;
+        display: flex;
+    }
+
     .pfp {
         width: 15vw;
     }
 
     .img {
         width: 20%;
-        padding-top: 5%;
+        padding-top: 7%;
         margin: 0 0 0 12%
     }
 
     .vl {
         border-left: 7px solid #ffb71d; 
         margin-right: 5%;
-        margin-top: 5%;
-        height: 70%
+        margin-left: 2%;
+        margin-top: 7%;
+        height: 50%
     }
 
     .title {
         font-size: 7vw;
         font-weight: 700;
         text-align: left;
-        padding-top: 0;
         #basuki{
             color:#ffb71d;
         }
@@ -415,5 +431,25 @@ body{
         font-size: 3vw;
         font-weight: 300;
         text-align: left;
+    }
+
+
+    .navi {
+        width: 100%;
+        height: 5vw;
+        background-color: #111116; 
+    }
+
+    .navgroup {
+        display: flex;
+        justify-content: space-between;
+        width:40%;
+        padding: 0 0 0 28%;
+    }
+
+    .navclick {
+        font-size: 3vw;
+        height: 5vw;
+        transition: 0.3s
     }
 }
